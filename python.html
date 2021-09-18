@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style type="text/css">
+    *, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 40px;
+  font-family: 'Open Sans', 'sans-serif';
+  background-color: #fff;
+  color: #444;
+}
+
+ 
+
+.wrapper {
+   
+  display: grid;
+  grid-gap: 10px;
+}
+
+@media screen and (min-width: 500px) {
+
+  /* no grid support? */
+  .sidebar {
+    float: left;
+    width: 19.1489%;
+  }
+
+  .content {
+    float: right;
+    width: 79.7872%;
+    height: 100%;
+  }
+
+  .wrapper {
+    margin: 0 auto;
+    grid-template-columns: 1fr 3fr;
+  }
+  
+  .header, .footer {
+    grid-column: 1 / -1;
+    /* needed for the floated layout */
+    clear: both;
+  }
+  .header ul li a{
+    text-decoration: none;
+    text-align: right;
+    list-style-type: none;
+    float: left;
+  font-size: 16px;
+  color: white;
+  display: inline;
+  padding: 14px 16px;
+   
+  }
+.header li{
+  text-decoration: none;
+  list-style: none;
+
+
+}
+article{
+  background-color: #f0f5f5;
+}
+
+.wrapper > * {
+  background-color: #444;
+  color: #fff;
+   
+  padding: 20px;
+  font-size: 150%;
+  /* needed for the floated layout*/
+  margin-bottom: 10px;
+}
+.sidebar a{
+  color: white;
+  text-decoration: none;
+
+}
+/* We need to set the widths used on floated items back to auto, and remove the bottom margin as when we have grid we have gaps. */
+@supports (display: grid) {
+  .wrapper > * {
+    width: auto;
+    margin: 0;
+  }
+}
+.logo{
+  text-align: right;
+  text-decoration: none;
+  float: center;
+  color: white;
+  list-style: none;
+  margin-top: 0;
+  width: 1400px;
+  display: block;
+  font-family: Eras Bold ITC;
+  font-size: 30px;
+  margin-top:0px;}
+  .header li a:hover{
+  color:  #538cc6;
+
+  }
+  .sidebar a:hover{
+    color: #538cc6;
+  }
+  </style>
+</head>
+<body>
+<div class="wrapper">
+  <header class="header">
+    <li class="logo">Smart<strong>Tech</strong></li>
+    <ul>
+      <li><a href="#">HOME</a></li>
+      <li><a href="#">CONTACT</a></li>
+    </ul>
+  </header>
+  <aside class="sidebar">
+    <a href="">Introduction</a><br>
+    <a href="">Tags</a>
+  </aside>
+  <article class="content">
+     
+  </article>
+  <footer class="footer">
+    <a href="#" class="fa fa-youtube"></a>
+<a href="#" class="fa fa-instagram"></a>
+<a href="#" class="fa fa-linkedin"></a>
+  </footer>
+</div>
+</body>
+</html>

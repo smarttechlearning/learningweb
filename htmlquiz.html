@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style type="text/css">
+    *, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 40px;
+  font-family: 'Open Sans', 'sans-serif';
+  background-color:#e0e0d1;
+  color: #444;
+}
+
+ 
+
+.wrapper {
+   
+  display: grid;
+  grid-gap: 10px;
+}
+
+@media screen and (min-width: 500px) {
+
+  /* no grid support? */
+  .sidebar {
+    float: left;
+    width: 19.1489%;
+
+  }
+
+  .content {
+    float: right;
+    width: 79.7872%;
+    height: 100%;
+  }
+
+  .wrapper {
+    margin: 0 auto;
+    grid-template-columns: 1fr 3fr;
+  }
+  
+  .header, .footer {
+    grid-column: 1 / -1;
+    /* needed for the floated layout */
+    clear: both;
+  }
+  .header ul li a{
+    text-decoration: none;
+    text-align: right;
+    list-style-type: none;
+    float: left;
+  font-size: 16px;
+  color: white;
+  display: inline;
+  padding: 14px 16px;
+   
+  }
+.header li{
+  text-decoration: none;
+  list-style: none;
+
+
+}
+}
+
+.wrapper > * {
+  background-color: #444;
+  color: #fff;
+   
+  padding: 20px;
+  font-size: 150%;
+  /* needed for the floated layout*/
+  margin-bottom: 10px;
+}
+.sidebar a{
+  color: white;
+  text-decoration: none;
+
+}
+/* We need to set the widths used on floated items back to auto, and remove the bottom margin as when we have grid we have gaps. */
+@supports (display: grid) {
+  .wrapper > * {
+    width: auto;
+    margin: 0;
+  }
+}
+.logo{
+  text-align: right;
+  text-decoration: none;
+  float: center;
+  color: white;
+  list-style: none;
+  margin-top: 0;
+  width: 1400px;
+  display: block;
+  font-family: Eras Bold ITC;
+  font-size: 30px;
+  margin-top:0px;
+}
+button{
+  background-color:#ff8533;
+  color: white;
+  font-size: 20px;
+  font-family: Arial Black;
+  border-radius: 2px;
+  float: right;
+}
+button:hover{
+  transform: scale(1.1);
+    }
+.header li a:hover{
+  color:#ff8533;
+
+  }
+  .sidebar a:hover{
+    color:#ff8533;
+  }
+  .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background:#cc0066;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+img{
+  width: 850px;
+  height:450px;
+   padding: 30px;
+}
+ 
+
+  </style>
+
+
+</head>
+<body>
+<div class="wrapper">
+  <header class="header">
+    <li class="logo">Smart<strong>Tech</strong></li>
+    <ul>
+      <li><a href="index.php">HOME</a></li>
+      <li><a href="contact.php">CONTACT</a></li>
+    </ul>
+  </header>
+  <aside class="sidebar">
+    <a href="htmlintro.html">Introduction</a><br>
+    <a href="htmleditor.html">Editor</a><br>
+    <a href="heading.html">Elements</a><br>
+    <a href="htmlparagraph.html">Heading</a><br>
+    <a href="htmlparagrsph.html">Paragraph</a><br>
+    <a href="style.html">Style</a><br>
+    <a href="link.html">Link</a><br>
+    <a href="htmlimg.html">Image</a><br>
+    <a href="htmlvideo.html">Video</a><br>
+    <a href="htmlaudio.html">Audio</a><br>
+    <a href="htmllist.html">List</a><br>
+    <a href="htmltable.html">Table</a><br>
+    <a href="htmlsymbol.html">Symbol</a><br>
+    <a href="htmlemoji.html">Emoji</a><br>
+    <a href="htmlform.html">Form</a><br>
+    <a href="htmlquiz.html">Quiz</a>
+ 
+  </aside>
+  <article class="content">
+    <strong style="color:#ff8533"><h1>HTML QUIZ</h1></strong>
+    <div id="app"></div>
+  <dir id="que">
+    1)What is the full form of HTML?<br>
+
+    <input type="radio" id="male" name="gender" value="male" onclick="correctFunction()">
+     <label for="male" id= "cr">Hyper Text Markup Language</label>
+     <br>
+     <script type="text/javascript">
+      function correctFunction() {
+   
+  document.getElementById("cr").style.color = "green";
+  
+
+   
+
+}
+
+      
+     </script>
+
+
+
+     <input type="radio" id="male" name="gender" value="male" onclick="wronFunction()">
+     <label for="male" id="wrr">High Text Markup Language</label>
+      <script type="text/javascript">
+      function wronFunction() {
+        document.getElementById('wrr').style.color = "red";
+  
+  
+}
+
+      
+     </script>
+     <br>
+      
+
+
+     <input type="radio" id="male" name="gender" value="male" onclick="wrongFunction()">
+     <label for="male" id="wr">High Text Matrix Language</label><br>
+      <script type="text/javascript">
+      function wrongFunction() {
+        document.getElementById('wr').style.color = "red";
+  
+  
+}
+      
+     </script>
+ 
+
+
+
+
+
+     <br><br><br> 
+
+    2) The correct sequence of HTML tags for starting a webpage is -<br>
+
+
+
+    <input type="radio" id="fmale" name="que" value="fmale" onclick="wrooFunction()">
+     <label for="fmale" id="ronggg">Head, Title, HTML, body </label><br>
+      <script type="text/javascript">
+      function wrooFunction() {
+        document.getElementById('ronggg').style.color = "red";
+  
+  
+}
+      
+     </script>
+
+ 
+      
+      
+
+     <input type="radio" id="fmale" name="que" value="fmale" onclick="wroFunction()">
+     <label for="fmale" id="rongg">HTML, Body, Title, Head</label><br>
+      <script type="text/javascript">
+      function wroFunction() {
+        document.getElementById('rongg').style.color = "red";
+  
+  
+}
+      
+     </script>
+     
+      
+     
+
+
+     <input type="radio" id="fmale" name="que" value="fmale" onclick="cFunction()">
+     <label for="fmale" id="cf">HTML, Head, Title, Body</label><br>
+     <script type="text/javascript">
+      function cFunction() {
+   
+  document.getElementById("cf").style.color = "green";
+  
+
+   
+
+}
+
+      
+     </script>
+
+
+     
+
+
+<br>
+<br>
+  
+
+
+3) Which of the following tag is used for inserting the largest heading in HTML?<br>
+
+
+<input type="radio" id="male" name="que1" value="male" onclick="co()">
+     <label for="male" id="cff">h1 </label><br>
+     
+      
+     <script type="text/javascript">
+      function co() {
+   
+  document.getElementById('cff').style.color = "green";
+  
+
+   
+
+}
+
+      
+     </script>
+
+
+
+     <input type="radio" id="male" name="que1" value="male" onclick="wrfFunction()">
+     <label for="male" id="ron">h2</label><br>
+      <script type="text/javascript">
+      function wrfFunction() {
+        document.getElementById('ron').style.color = "red";
+  
+  
+}
+      
+     </script>
+
+
+     <input type="radio" id="male" name="que1" value="male" onclick="wrFunction()">
+     <label for="male" id="rong">h6</label><br>
+      <script type="text/javascript">
+      function wrFunction() {
+        document.getElementById('rong').style.color = "red";
+  
+  
+}
+      
+     </script><br><br>
+     4) What is the correct HTML element for inserting a line break?<br>
+
+
+
+    <input type="radio" id="fmale" name="que3" value="fmale" onclick="wrooFfunction()">
+     <label for="fmale" id="lronggg">&ltlb> </label><br>
+      <script type="text/javascript">
+      function wrooFfunction() {
+        document.getElementById('lronggg').style.color = "red";
+  
+  
+}
+      
+     </script>
+
+ 
+      
+      
+
+     <input type="radio" id="fmale" name="que3" value="fmale" onclick="wroFfunction()">
+     <label for="fmale" id="lrongg">&ltlr&gt</label><br>
+      <script type="text/javascript">
+      function wroFfunction() {
+        document.getElementById('lrongg').style.color = "red";
+  
+  
+}
+      
+     </script>
+     
+      
+     
+
+
+     <input type="radio" id="fmale" name="que3" value="fmale" onclick="cfunction()">
+     <label for="fmale" id="lf">&ltbr&gt</label><br>
+     <script type="text/javascript">
+      function cfunction() {
+   
+  document.getElementById("lf").style.color = "green";
+  
+
+   
+
+}
+
+      
+     </script><br><br>
+
+5)Which character is used to indicate an end tag?
+
+<br>
+
+
+
+    <input type="radio" id="fmale" name="que4" value="fmale" onclick="wroofunction()">
+     <label for="fmale" id="mronggg">* </label><br>
+      <script type="text/javascript">
+      function wroofunction() {
+        document.getElementById('mronggg').style.color = "red";
+  
+  
+}
+      
+     </script>
+
+ 
+      
+      
+
+     <input type="radio" id="fmale" name="que4" value="fmale" onclick="wrofunction()">
+     <label for="fmale" id="mrongg"><</label><br>
+      <script type="text/javascript">
+      function wrofunction() {
+        document.getElementById('mrongg').style.color = "red";
+  
+  
+}
+      
+     </script>
+     
+      
+     
+
+
+     <input type="radio" id="fmale" name="que4" value="fmale" onclick="Cfunction()">
+     <label for="fmale" id="llf">/</label><br>
+     <script type="text/javascript">
+      function Cfunction() {
+   
+  document.getElementById("llf").style.color = "green";
+  
+
+   
+
+}
+
+      
+     </script>
+
+
+     
+
+
+<br>
+<br>
+  
+
+
+
+
+ 
+  </dir>
+
+     
+<button type="button"><a href="index.php" style="color: white">NEXT-></button></a>
+
+
+
+
+
+
+
+
+
+
+  </article>
+  <footer class="footer">
+  <center> <a href="https://studio.youtube.com/channel/UCzctoNqKhrR4P5jxWO9JZQw/playlists" class="fa fa-youtube"></a>
+<a href="https://www.instagram.com/smart__tech_/" class="fa fa-instagram"></a>
+<a href="https://www.linkedin.com/in/mansi-soni-6b1902203/" class="fa fa-linkedin"></a></center>
+  </footer>
+</div>
+</body>
+</html>

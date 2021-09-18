@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style type="text/css">
+    *, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 40px;
+  font-family: 'Open Sans', 'sans-serif';
+  background-color:#e0e0d1;
+  color: #444;
+}
+
+ 
+
+.wrapper {
+   
+  display: grid;
+  grid-gap: 10px;
+}
+
+@media screen and (min-width: 500px) {
+
+  /* no grid support? */
+  .sidebar {
+    float: left;
+    width: 19.1489%;
+
+  }
+
+  .content {
+    float: right;
+    width: 79.7872%;
+    height: 100%;
+  }
+
+  .wrapper {
+    margin: 0 auto;
+    grid-template-columns: 1fr 3fr;
+  }
+  
+  .header, .footer {
+    grid-column: 1 / -1;
+    /* needed for the floated layout */
+    clear: both;
+  }
+  .header ul li a{
+    text-decoration: none;
+    text-align: right;
+    list-style-type: none;
+    float: left;
+  font-size: 16px;
+  color: white;
+  display: inline;
+  padding: 14px 16px;
+   
+  }
+.header li{
+  text-decoration: none;
+  list-style: none;
+
+
+}
+}
+
+.wrapper > * {
+  background-color: #444;
+  color: #fff;
+   
+  padding: 20px;
+  font-size: 150%;
+  /* needed for the floated layout*/
+  margin-bottom: 10px;
+}
+.sidebar a{
+  color: white;
+  text-decoration: none;
+
+}
+/* We need to set the widths used on floated items back to auto, and remove the bottom margin as when we have grid we have gaps. */
+@supports (display: grid) {
+  .wrapper > * {
+    width: auto;
+    margin: 0;
+  }
+}
+.logo{
+  text-align: right;
+  text-decoration: none;
+  float: center;
+  color: white;
+  list-style: none;
+  margin-top: 0;
+  width: 1400px;
+  display: block;
+  font-family: Eras Bold ITC;
+  font-size: 30px;
+  margin-top:0px;
+}
+button{
+  background-color:#ff8533;
+  color: white;
+  font-size: 20px;
+  font-family: Arial Black;
+  border-radius: 2px;
+  float: right;
+}
+button:hover{
+  transform: scale(1.1);
+    }
+.header li a:hover{
+  color:#ff8533;
+
+  }
+  .sidebar a:hover{
+    color:#ff8533;
+  }
+  .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background:#cc0066;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+img{
+  width: 550px;
+  height:550px;
+  
+}
+
+
+  </style>
+
+
+</head>
+<body>
+<div class="wrapper">
+  <header class="header">
+    <li class="logo">Smart<strong>Tech</strong></li>
+    <ul>
+      <li><a href="index.php">HOME</a></li>
+      <li><a href="contact.php">CONTACT</a></li>
+    </ul>
+  </header>
+  <aside class="sidebar">
+     <a href="htmlintro.html">Introduction</a><br>
+    <a href="htmleditor.html">Editor</a><br>
+    <a href="heading.html">Elements</a><br>
+    <a href="htmlparagraph.html">Heading</a><br>
+    <a href="htmlparagrsph.html">Paragraph</a><br>
+    <a href="style.html">Style</a><br>
+    <a href="link.html">Link</a><br>
+    <a href="htmlimg.html">Image</a><br>
+    <a href="htmlvideo.html">Video</a><br>
+    <a href="htmlaudio.html">Audio</a><br>
+    <a href="htmllist.html">List</a><br>
+    <a href="htmltable.html">Table</a><br>
+    <a href="htmlsymbol.html">Symbol</a><br>
+    <a href="htmlemoji.html">Emoji</a><br>
+    <a href="htmlform.html">Form</a><br>
+    <a href="htmlquiz.html">Quiz</a>
+ 
+  </aside>
+  <article class="content">
+    <strong style="color:#ff8533"><h1>Best HTML Editors</h1></strong> 
+    <p>We all make mistakes, and that also applies to writing code. But whether you’re just starting out or are a seasoned vet, making an error in your code can cause you a real headache. As we use all kinds of tools to help us with simple tasks, such as spellcheck for writing, an HTML (Hyper Text Markup Language) editor is no different. HTML editors have a lot of features behind them, and we will be covering that and much more when we look at the list of the best HTML editors.</p>
+     <h2>What is HTML editor</h2>
+     <p>In hindsight, an HTML editor is used to write the foundation of a website. And while any text editor can do the job, it doesn’t mean you have to do it without any help at all. Added functionality, error checking, and all-around a more intuitive editor is something that can ease your life significantly. The very fundamentals of HTML editors are the same; they help you write code by highlighting syntaxes, insert commonly used HTML elements and structures as well as providing autocompletion.<br>
+
+Text using an HTML editor can also be translated to other languages such as CSS, XML, or JavaScript. But as we know, not all things are created equal. Some editors might be easier to use while some provide more functionality than others.</p><br>
+<ul><li><h3>Atom</h3> Atom is an HMTL editor that came out in 2014 and gained tremendous momentum since. Atom is a free, open-source code editor, and it was developed by the GitHub team. Atom uses a free software license for its package and it is maintained by the GitHub community. It aims to offer a premium feel to the editor while keeping it completely free. As well as the flexibility to customize the software itself.<br>
+
+
+As for the tagline, they boast as a hackable text editor for the 21st century. It means that developers can contribute to edit, extend, change, and share the program source code as well as create their own packages to improve Atom.</li>
+<center><img src="image/atom.jpg"><br></center>
+<li><h3>Notepad++</h3> Notepad++ is a free HTML editor that was developed for Windows-based machines. Linux users can also use it via Wine. This editor is distributed as free software and its repository is also available in GitHub. Like other community projects, third-party plugins are supported.</li>
+<center><img src="image/notepad.jpg"><br></center><br>
+<li><h3>Sublime Text</h3>  Sublime is another excellent free HTML editor. Developed by a Sydney-based company, this software falls under the category of freemium. Freemium means that you can use Sublime for free, but you have to buy a license to enjoy the full features.
+
+Sublime offers great support to ensure that the program is constantly updated. Users can add plugins made by the community or build their own. We think using the free version of Sublime is more than adequate. However, if you feel like you need more features, you can get the license at a later point.</li>
+<center><img src="image/sublime.jfif"><br></center><br>
+<li><h3>Visual Studio Code</h3>  This multi-code free HTML editing tool comes ready to go with a large range of customizable features. It prides itself on its smart autocomplete and other intelligent syntax responses. Visual Studio Code is a multi-language and multi-platform program. Its development environment works hand in hand with HTML, Python and other popular programming languages.
+
+It is also compatible with Microsoft Azure which makes for easy deployment and numerous extensions. </li>
+<center><img src="image/vs.png"><br></center></ul>
+<button type="button"><a href="element.html" style="color: white">NEXT-></button></a> 
+
+
+
+
+
+
+
+
+
+
+  </article>
+  <footer class="footer">
+  <center> <a href="https://studio.youtube.com/channel/UCzctoNqKhrR4P5jxWO9JZQw/playlists" class="fa fa-youtube"></a>
+<a href="https://www.instagram.com/smart__tech_/" class="fa fa-instagram"></a>
+<a href="https://www.linkedin.com/in/mansi-soni-6b1902203/" class="fa fa-linkedin"></a></center>
+  </footer>
+</div>
+</body>
+</html>

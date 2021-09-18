@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style type="text/css">
+    *, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 40px;
+  font-family: 'Open Sans', 'sans-serif';
+  background-color:#e0e0d1;
+  color: #444;
+}
+
+ 
+
+.wrapper {
+   
+  display: grid;
+  grid-gap: 10px;
+}
+
+@media screen and (min-width: 500px) {
+
+  /* no grid support? */
+  .sidebar {
+    float: left;
+    width: 19.1489%;
+
+  }
+
+  .content {
+    float: right;
+    width: 79.7872%;
+    height: 100%;
+  }
+
+  .wrapper {
+    margin: 0 auto;
+    grid-template-columns: 1fr 3fr;
+  }
+  
+  .header, .footer {
+    grid-column: 1 / -1;
+    /* needed for the floated layout */
+    clear: both;
+  }
+  .header ul li a{
+    text-decoration: none;
+    text-align: right;
+    list-style-type: none;
+    float: left;
+  font-size: 16px;
+  color: white;
+  display: inline;
+  padding: 14px 16px;
+   
+  }
+.header li{
+  text-decoration: none;
+  list-style: none;
+
+
+}
+}
+
+.wrapper > * {
+  background-color: #444;
+  color: #fff;
+   
+  padding: 20px;
+  font-size: 150%;
+  /* needed for the floated layout*/
+  margin-bottom: 10px;
+}
+.sidebar a{
+  color: white;
+  text-decoration: none;
+
+}
+/* We need to set the widths used on floated items back to auto, and remove the bottom margin as when we have grid we have gaps. */
+@supports (display: grid) {
+  .wrapper > * {
+    width: auto;
+    margin: 0;
+  }
+}
+.logo{
+  text-align: right;
+  text-decoration: none;
+  float: center;
+  color: white;
+  list-style: none;
+  margin-top: 0;
+  width: 1400px;
+  display: block;
+  font-family: Eras Bold ITC;
+  font-size: 30px;
+  margin-top:0px;
+}
+button{
+  background-color:#ff8533;
+  color: white;
+  font-size: 20px;
+  font-family: Arial Black;
+  border-radius: 2px;
+  float: right;
+}
+button:hover{
+  transform: scale(1.1);
+    }
+.header li a:hover{
+  color:#ff8533;
+
+  }
+  .sidebar a:hover{
+    color:#ff8533;
+  }
+  .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background:#cc0066;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+img{
+  width: 150px;
+  height:150px;
+  float: right;
+}
+
+
+  </style>
+
+
+</head>
+<body>
+<div class="wrapper">
+  <header class="header">
+    <li class="logo">Smart<strong>Tech</strong></li>
+    <ul>
+      <li><a href="index.php">HOME</a></li>
+      <li><a href="contact.php">CONTACT</a></li>
+    </ul>
+  </header>
+  <aside class="sidebar">
+ <a href="htmlintro.html">Introduction</a><br>
+    <a href="htmleditor.html">Editor</a><br>
+    <a href="heading.html">Elements</a><br>
+    <a href="htmlparagraph.html">Heading</a><br>
+    <a href="htmlparagrsph.html">Paragraph</a><br>
+    <a href="style.html">Style</a><br>
+    <a href="link.html">Link</a><br>
+    <a href="htmlimg.html">Image</a><br>
+    <a href="htmlvideo.html">Video</a><br>
+    <a href="htmlaudio.html">Audio</a><br>
+    <a href="htmllist.html">List</a><br>
+    <a href="htmltable.html">Table</a><br>
+    <a href="htmlsymbol.html">Symbol</a><br>
+    <a href="htmlemoji.html">Emoji</a><br>
+    <a href="htmlform.html">Form</a><br>
+    <a href="htmlquiz.html">Quiz</a>
+ 
+  </aside>
+  <article class="content">
+    <strong style="color:#ff8533"><h1>HTML ELEMENTS</h1></strong><img src="image/htmll.jpg">
+     The HTML element is everything from the start tag to the end tag:
+
+&lttagname&gtContent goes here...&lt/tagname&gt <br>
+Examples of some HTML elements:<br>
+
+&lth1&gtMy First Heading&lt/h1&gt<br>
+&ltp&gtMy first paragraph&lt/p&gt<br>
+HTML elements can be nested (this means that elements can contain other elements).
+
+All HTML documents consist of nested HTML elements.
+
+The following example contains four HTML elements (&lthtml&gt, &ltbody&gt, &lth1&gt and &ltp&gt):<br><br>
+
+<h3>Example</h3>
+&lt!DOCTYPE html&gt<br>
+&lthtml&gt<br>
+&ltbody&gt<br>
+
+&lth1&gtMy First Heading&lt/h1&gt<br>
+&ltp&gtMy first paragraph&lt/p&gt<br>
+
+&lt/body&gt<br>
+&lt/html&gt<br>
+<button type="button"><a href="heading.html" style="color: white">NEXT-></button></a> 
+
+
+
+
+
+
+
+
+
+
+  </article>
+  <footer class="footer">
+  <center> <a href="https://studio.youtube.com/channel/UCzctoNqKhrR4P5jxWO9JZQw/playlists" class="fa fa-youtube"></a>
+<a href="https://www.instagram.com/smart__tech_/" class="fa fa-instagram"></a>
+<a href="https://www.linkedin.com/in/mansi-soni-6b1902203/" class="fa fa-linkedin"></a></center>
+  </footer>
+</div>
+</body>
+</html>

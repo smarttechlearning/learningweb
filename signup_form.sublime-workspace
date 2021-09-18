@@ -1,0 +1,601 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ba",
+				"background-color\tproperty"
+			],
+			[
+				"tr",
+				"transform"
+			],
+			[
+				"filter",
+				"filter_input"
+			],
+			[
+				"br",
+				"breakfast4"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"backgr",
+				"background-color\tproperty"
+			],
+			[
+				"u",
+				"url()\tbackground-image"
+			],
+			[
+				"p",
+				"php\t<?php … ?>"
+			],
+			[
+				"_",
+				"_COOKIE"
+			],
+			[
+				"se",
+				"setcookie"
+			],
+			[
+				"us",
+				"username"
+			],
+			[
+				"soni",
+				"sonimansi169"
+			],
+			[
+				"i",
+				"i\tTag"
+			],
+			[
+				"pa",
+				"padding-right\tproperty"
+			],
+			[
+				"margin",
+				"margin-right\tproperty"
+			],
+			[
+				"con",
+				"Contact"
+			],
+			[
+				"ali",
+				"align-items\tproperty"
+			],
+			[
+				"el",
+				"else"
+			],
+			[
+				"cur",
+				"cur_date"
+			],
+			[
+				"rounded",
+				"rounded-0"
+			],
+			[
+				"loca",
+				"location"
+			],
+			[
+				"te",
+				"text-light"
+			],
+			[
+				"bg",
+				"bg-light"
+			],
+			[
+				"text-",
+				"text-success"
+			],
+			[
+				"ro",
+				"row"
+			],
+			[
+				"conn",
+				"connect_error"
+			],
+			[
+				"for",
+				"form-group"
+			],
+			[
+				"fo",
+				"form-control"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"head",
+				"heading"
+			],
+			[
+				"ele",
+				"element"
+			],
+			[
+				"r",
+				"translate()\ttransform"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"l",
+				"li\tTag"
+			],
+			[
+				"tex",
+				"text-align\tproperty"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"to",
+				"margin-top\tproperty"
+			],
+			[
+				"text",
+				"text-decoration\tproperty"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"co",
+				"commentContent"
+			],
+			[
+				"PAS",
+				"password"
+			],
+			[
+				"my",
+				"mysqli"
+			],
+			[
+				"s",
+				"sql"
+			],
+			[
+				"mys",
+				"mysqli"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"sc",
+				"script"
+			],
+			[
+				"f",
+				"font-family\tproperty"
+			],
+			[
+				"loc",
+				"localhost"
+			],
+			[
+				"t",
+				"transform\tproperty"
+			],
+			[
+				"bl",
+				"blue"
+			],
+			[
+				"up",
+				"upper-roman\tlist-style"
+			],
+			[
+				"o",
+				"ol\tTag"
+			],
+			[
+				"li",
+				"list-style\tproperty"
+			],
+			[
+				"col",
+				"color\tproperty"
+			],
+			[
+				"bor",
+				"border-color\tproperty"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"border-r",
+				"border-radius\tproperty"
+			],
+			[
+				"FON",
+				"font-size"
+			],
+			[
+				"marg",
+				"margin-bottom\tproperty"
+			],
+			[
+				"mar",
+				"margin-top\tproperty"
+			],
+			[
+				"fle",
+				"flex-direction\tproperty"
+			],
+			[
+				"met",
+				"meta\tTag"
+			],
+			[
+				"ani",
+				"animation-duration\tproperty"
+			],
+			[
+				"an",
+				"animation-name\tproperty"
+			],
+			[
+				"border-co",
+				"border-color\tproperty"
+			],
+			[
+				"bo",
+				"border-style\tproperty"
+			],
+			[
+				"background",
+				"background-color\tproperty"
+			],
+			[
+				"backgro",
+				"background-image\tproperty"
+			],
+			[
+				"me",
+				"meta\tTag"
+			],
+			[
+				"bak",
+				"background-attachment\tproperty"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"box",
+				"box-shadow\tproperty"
+			],
+			[
+				"bac",
+				"background-color\tproperty"
+			],
+			[
+				"a",
+				"action\tAttr"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"w",
+				"width\tproperty"
+			],
+			[
+				"D",
+				"degree"
+			],
+			[
+				"al",
+				"align-content\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/xampp/htdocs/My_web/assets/img/apple-touch-icon.png",
+		"/C/Users/hp/Desktop/demo.html",
+		"/D/old doc/youtube/overlay.html",
+		"/C/xampp/htdocs/papa_beti_kitchen/papa-beti-kitchen/testimonial.html",
+		"/C/xampp/htdocs/papa_beti_kitchen/index.php",
+		"/C/xampp/htdocs/papa_beti_kitchen/index.css",
+		"/C/xampp/htdocs/papa-beti-kitchen/application/views/home.php",
+		"/C/xampp/htdocs/papa-beti-kitchen/application/controllers/control.php",
+		"/C/xampp/htdocs/papa-beti-kitchen/application/views/welcome_message.php",
+		"/C/xampp/htdocs/ddrws/application/models/index.html",
+		"/C/xampp/htdocs/learning web/logout.php",
+		"/C/xampp/htdocs/learning web/home.php",
+		"/C/xampp/htdocs/blogg/bcit-ci-CodeIgniter-b73eb19/application/config/database.php",
+		"/C/xampp/htdocs/secure-remember-me-for-login-using-php-session-and-cookies/DBController.php",
+		"/C/xampp/htdocs/login web/login/home.php",
+		"/C/xampp/htdocs/forgot_pass/reset-password.php",
+		"/C/xampp/htdocs/forgot_pass/update-forget-password.php",
+		"/C/xampp/htdocs/forgot_pass/password-reset-token.php",
+		"/C/xampp/htdocs/forgot_pass/ db.php",
+		"/C/xampp/htdocs/forgot_pass/forget-password.php",
+		"/C/xampp/htdocs/login web/index.php",
+		"/C/xampp/htdocs/login web/login_form.php",
+		"/C/xampp/htdocs/login web/connect.php",
+		"/C/xampp/htdocs/login web/login.php",
+		"/C/xampp/htdocs/login web/home.php",
+		"/C/xampp/htdocs/login web/logout.php",
+		"/C/xampp/htdocs/management/lodin.php",
+		"/C/xampp/htdocs/management/connect.php",
+		"/C/xampp/htdocs/management/ main.css",
+		"/C/xampp/htdocs/management/index.php",
+		"/D/old doc/react.html",
+		"/D/old doc/app.jsx",
+		"/C/xampp/htdocs/learning web/comment.php",
+		"/C/xampp/htdocs/learning web/action.php",
+		"/C/xampp/htdocs/learning web/py_course.html",
+		"/C/xampp/htdocs/learning web/pyintro.html",
+		"/C/xampp/htdocs/learning web/pysyntax.html",
+		"/C/xampp/htdocs/learning web/pyvariable.html",
+		"/C/xampp/htdocs/learning web/pydtype.html",
+		"/C/xampp/htdocs/learning web/pystring.html",
+		"/C/xampp/htdocs/learning web/pylist.html",
+		"/C/xampp/htdocs/learning web/pytuple.html",
+		"/C/xampp/htdocs/learning web/pyset.html",
+		"/C/xampp/htdocs/learning web/pydictionary.html",
+		"/C/xampp/htdocs/learning web/pyif.html",
+		"/C/xampp/htdocs/learning web/pyloop.html",
+		"/C/xampp/htdocs/learning web/pyoperator.html",
+		"/C/xampp/htdocs/learning web/pyarray.html",
+		"/C/xampp/htdocs/learning web/pyclass.html",
+		"/C/xampp/htdocs/learning web/pyinheretance.html",
+		"/C/xampp/htdocs/learning web/pymodule.html",
+		"/C/xampp/htdocs/learning web/pyquiz.html",
+		"/C/xampp/htdocs/learning web/css_course.html",
+		"/C/xampp/htdocs/learning web/cssintro.html",
+		"/C/xampp/htdocs/learning web/csssyntax.html",
+		"/C/xampp/htdocs/learning web/csscolor.html",
+		"/C/xampp/htdocs/learning web/cssbg.html",
+		"/C/xampp/htdocs/learning web/cssborder.html",
+		"/C/xampp/htdocs/learning web/cssfont.html",
+		"/C/xampp/htdocs/learning web/cssicon.html",
+		"/C/xampp/htdocs/learning web/cssopacity.html",
+		"/C/xampp/htdocs/learning web/cssquiz.html",
+		"/C/xampp/htdocs/learning web/cssnav.html",
+		"/C/xampp/htdocs/comment-reply/post_details.php",
+		"/C/xampp/htdocs/comment-reply/function.php",
+		"/C/xampp/htdocs/learning web/courses/python.html",
+		"/C/xampp/htdocs/learning web/courses/css.html",
+		"/C/xampp/htdocs/learning web/courses/html_course/htmlintro.html",
+		"/C/xampp/htdocs/learning web/courses/html.html",
+		"/C/xampp/htdocs/learning web/htmlintro.html",
+		"/C/xampp/htdocs/learning web/html.html",
+		"/C/xampp/htdocs/comment box/home.php",
+		"/C/xampp/htdocs/login/auth.php",
+		"/C/Users/hp/PycharmProjects/ flask pro/tamplates/index.html",
+		"/C/Users/hp/Desktop/ex1.py",
+		"/C/Users/hp/AppData/Roaming/Sublime Text 3/Packages/User/newPython3.sublime-build",
+		"/C/Users/hp/Desktop/betu/css.html",
+		"/C/Users/hp/Desktop/youtube/animation.html",
+		"/C/Users/hp/Desktop/youtube/emoji pass.html",
+		"/C/Users/hp/Desktop/link betu.html",
+		"/C/Users/hp/Desktop/youtube/emoji.html",
+		"/C/Users/hp/Desktop/betu/betu.html",
+		"/C/Users/hp/Desktop/music player/select.html",
+		"/C/Users/hp/Desktop/quiz/que.html",
+		"/C/Users/hp/Desktop/betu/link betu.html",
+		"/C/Users/hp/Desktop/betu.html",
+		"/C/Users/hp/Desktop/youtube web/you.html",
+		"/C/Users/hp/Desktop/u.html",
+		"/C/Users/hp/Desktop/new web/home.html",
+		"/C/Users/hp/Desktop/quiz/start.html",
+		"/C/Users/hp/Desktop/quiz.html",
+		"/C/Users/hp/Desktop/front end learn/css2.html",
+		"/C/Users/hp/Desktop/css1.html",
+		"/C/Users/hp/Desktop/front end learn/css3.html",
+		"/C/Users/hp/Desktop/youtube.html",
+		"/C/Users/hp/Desktop/front end learn/js.html",
+		"/C/Users/hp/Desktop/front end learn/ECOM.HTML",
+		"/C/Users/hp/Desktop/jq.html",
+		"/C/xampp/htdocs/contact/contact.php",
+		"/C/xampp/htdocs/contact/main.php",
+		"/C/Users/hp/Desktop/music player/home.html",
+		"/C/xampp/htdocs/mysql/my.php",
+		"/C/Users/hp/Desktop/root.html",
+		"/C/xampp/htdocs/mysql/.html",
+		"/C/xampp/htdocs/1st php/curdoperation/connection.php",
+		"/C/Users/hp/Desktop/music player/index.html",
+		"/C/xampp/htdocs/php.php",
+		"/C/Users/hp/Desktop/javascript.html",
+		"/C/Users/hp/Desktop/mm.html",
+		"/D/website.html",
+		"/D/blog.html",
+		"/C/xampp/htdocs/1st php/curdoperation/ index.php",
+		"/C/Users/hp/Desktop/company.html",
+		"/C/Users/hp/Desktop/shoping/bestsell.html",
+		"/C/xampp/htdocs/1st php/apache_start.php"
+	],
+	"find":
+	{
+		"height": 90.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 90.0
+	},
+	"input":
+	{
+		"height": 90.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "signup_form.sublime-project",
+	"replace":
+	{
+		"height": 176.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 186.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

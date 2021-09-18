@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style type="text/css">
+    *, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 40px;
+  font-family: 'Open Sans', 'sans-serif';
+  background-color:#e0e0d1;
+  color: #444;
+}
+
+ 
+
+.wrapper {
+   
+  display: grid;
+  grid-gap: 10px;
+}
+
+@media screen and (min-width: 500px) {
+
+  /* no grid support? */
+  .sidebar {
+    float: left;
+    width: 19.1489%;
+
+  }
+
+  .content {
+    float: right;
+    width: 79.7872%;
+    height: 100%;
+  }
+
+  .wrapper {
+    margin: 0 auto;
+    grid-template-columns: 1fr 3fr;
+  }
+  
+  .header, .footer {
+    grid-column: 1 / -1;
+    /* needed for the floated layout */
+    clear: both;
+  }
+  .header ul li a{
+    text-decoration: none;
+    text-align: right;
+    list-style-type: none;
+    float: left;
+  font-size: 16px;
+  color: white;
+  display: inline;
+  padding: 14px 16px;
+   
+  }
+.header li{
+  text-decoration: none;
+  list-style: none;
+
+
+}
+}
+
+.wrapper > * {
+  background-color: #444;
+  color: #fff;
+   
+  padding: 20px;
+  font-size: 150%;
+  /* needed for the floated layout*/
+  margin-bottom: 10px;
+}
+.sidebar a{
+  color: white;
+  text-decoration: none;
+
+}
+/* We need to set the widths used on floated items back to auto, and remove the bottom margin as when we have grid we have gaps. */
+@supports (display: grid) {
+  .wrapper > * {
+    width: auto;
+    margin: 0;
+  }
+}
+.logo{
+  text-align: right;
+  text-decoration: none;
+  float: center;
+  color: white;
+  list-style: none;
+  margin-top: 0;
+  width: 1400px;
+  display: block;
+  font-family: Eras Bold ITC;
+  font-size: 30px;
+  margin-top:0px;
+}
+button{
+  background-color:#ff8533;
+  color: white;
+  font-size: 20px;
+  font-family: Arial Black;
+  border-radius: 2px;
+  float: right;
+}
+button:hover{
+  transform: scale(1.1);
+    }
+.header li a:hover{
+  color:#ff8533;
+
+  }
+  .sidebar a:hover{
+    color:#ff8533;
+  }
+  .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background:#cc0066;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+img{
+  width: 350px;
+  height:350px;
+   padding: 30px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  color: black;
+}
+
+td, th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+  </style>
+
+
+</head>
+<body>
+<div class="wrapper">
+  <header class="header">
+    <li class="logo">Smart<strong>Tech</strong></li>
+    <ul>
+      <li><a href="index.php">HOME</a></li>
+      <li><a href="contact.php">CONTACT</a></li>
+    </ul>
+  </header>
+  <aside class="sidebar">
+ <a href="htmlintro.html">Introduction</a><br>
+    <a href="htmleditor.html">Editor</a><br>
+    <a href="heading.html">Elements</a><br>
+    <a href="htmlparagraph.html">Heading</a><br>
+    <a href="htmlparagrsph.html">Paragraph</a><br>
+    <a href="style.html">Style</a><br>
+    <a href="link.html">Link</a><br>
+    <a href="htmlimg.html">Image</a><br>
+    <a href="htmlvideo.html">Video</a><br>
+    <a href="htmlaudio.html">Audio</a><br>
+    <a href="htmllist.html">List</a><br>
+    <a href="htmltable.html">Table</a><br>
+    <a href="htmlsymbol.html">Symbol</a><br>
+    <a href="htmlemoji.html">Emoji</a><br>
+    <a href="htmlform.html">Form</a><br>
+    <a href="htmlquiz.html">Quiz</a>
+ 
+  </aside>
+  <article class="content">
+    <strong style="color:#ff8533"><h1>HTML TABLE</h1></strong> 
+        
+ 
+
+ HTML tables allow web developers to arrange data into rows and columns.<br>
+ <table>
+  <tr>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+  </tr>
+  <tr>
+    <td>Ernst Handel</td>
+    <td>Roland Mendel</td>
+    <td>Austria</td>
+  </tr>
+  <tr>
+    <td>Island Trading</td>
+    <td>Helen Bennett</td>
+    <td>UK</td>
+  </tr>
+  <tr>
+    <td>Laughing Bacchus Winecellars</td>
+    <td>Yoshi Tannamuri</td>
+    <td>Canada</td>
+  </tr>
+  <tr>
+    <td>Magazzini Alimentari Riuniti</td>
+    <td>Giovanni Rovelli</td>
+    <td>Italy</td>
+  </tr>
+</table>
+
+<h2>Define an HTML Table</h2>
+The &lttable&gt tag defines an HTML table.
+
+Each table row is defined with a &lttr&gt tag. Each table header is defined with a &ltth&gt tag. Each table data/cell is defined with a &lttd&gt tag.<br>
+
+By default, the text in &ltth&gt elements are bold and centered.<br>
+
+By default, the text in &lttd&gt elements are regular and left-aligned.<br>
+
+<h3>Example</h3>
+A simple HTML table:<br>
+
+&lttable style="width:100%"><br>
+  &lttr><br>
+    &ltth>Firstname&lt/th><br>
+    &ltth>Lastname&lt/th><br>
+    &ltth>Age&lt/th><br>
+  &lt/tr><br>
+  &lttr><br>
+    &lttd>Jill&lt/td><br>
+    &lttd>Smith&lt/td><br>
+    &lttd>50&lt/td><br>
+  &lt/tr><br>
+  &lttr><br>
+    &lttd>Eve&lt/td>
+    &lttd>Jackson&lt/td><br>
+    &lttd>94&lt/td><br>
+  &lt/tr>
+&lt/table><br>
+
+
+
+
+
+
+<button type="button"><a href="htmlsymbol.html" style="color: white">NEXT-></button></a>
+
+
+
+
+
+
+
+
+
+
+  </article>
+  <footer class="footer">
+  <center>   <a href="https://studio.youtube.com/channel/UCzctoNqKhrR4P5jxWO9JZQw/playlists" class="fa fa-youtube"></a>
+<a href="https://www.instagram.com/smart__tech_/" class="fa fa-instagram"></a>
+<a href="https://www.linkedin.com/in/mansi-soni-6b1902203/" class="fa fa-linkedin"></a></center>
+  </footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style type="text/css">
+    *, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 40px;
+  font-family: 'Open Sans', 'sans-serif';
+  background-color:#e0e0d1;
+  color: #444;
+}
+
+ 
+
+.wrapper {
+   
+  display: grid;
+  grid-gap: 10px;
+}
+
+@media screen and (min-width: 500px) {
+
+  /* no grid support? */
+  .sidebar {
+    float: left;
+    width: 19.1489%;
+
+  }
+
+  .content {
+    float: right;
+    width: 79.7872%;
+    height: 100%;
+  }
+
+  .wrapper {
+    margin: 0 auto;
+    grid-template-columns: 1fr 3fr;
+  }
+  
+  .header, .footer {
+    grid-column: 1 / -1;
+    /* needed for the floated layout */
+    clear: both;
+  }
+  .header ul li a{
+    text-decoration: none;
+    text-align: right;
+    list-style-type: none;
+    float: left;
+  font-size: 16px;
+  color: white;
+  display: inline;
+  padding: 14px 16px;
+   
+  }
+.header li{
+  text-decoration: none;
+  list-style: none;
+
+
+}
+}
+
+.wrapper > * {
+  background-color: #444;
+  color: #fff;
+   
+  padding: 20px;
+  font-size: 150%;
+  /* needed for the floated layout*/
+  margin-bottom: 10px;
+}
+.sidebar a{
+  color: white;
+  text-decoration: none;
+
+}
+/* We need to set the widths used on floated items back to auto, and remove the bottom margin as when we have grid we have gaps. */
+@supports (display: grid) {
+  .wrapper > * {
+    width: auto;
+    margin: 0;
+  }
+}
+.logo{
+  text-align: right;
+  text-decoration: none;
+  float: center;
+  color: white;
+  list-style: none;
+  margin-top: 0;
+  width: 1400px;
+  display: block;
+  font-family: Eras Bold ITC;
+  font-size: 30px;
+  margin-top:0px;
+}
+button{
+  background-color:#538cc6;
+  color: white;
+  font-size: 20px;
+  font-family: Arial Black;
+  border-radius: 2px;
+  float: right;
+}
+button:hover{
+  transform: scale(1.1);
+    }
+.header li a:hover{
+  color:  #538cc6;
+
+  }
+  .sidebar a:hover{
+    color: #538cc6;
+  }
+  .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background:#cc0066;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+img{
+  
+  width: 700px;
+  height: 400px;
+  }
+ 
+
+  </style>
+
+
+</head>
+<body>
+<div class="wrapper">
+  <header class="header">
+    <li class="logo">Smart<strong>Tech</strong></li>
+    <ul>
+      <li><a href="index.php">Home</a></li>
+      <li><a href="contact.php">About Us</a></li>
+      <li><a href="contact.php">Comment</a></li>
+    </ul>
+  </header>
+  <aside class="sidebar">
+ <a href="cssintro.html">Introduction</a><br>
+    <a href="csssyntax.html">Syntax</a><br>
+    <a href="csscolor.html">Color</a><br>
+    <a href="cssbg.html">Background</a><br>
+    <a href="cssborder.html">Border</a><br>
+    <a href="cssfont.html">Font</a><br>
+    <a href="cssicon.html">Icon</a><br>
+    <a href="cssopacity.html">Opacity</a><br>
+    <a href="cssnav.html">Navigation Bar</a><br>
+     
+    <a href="cssquiz.html">Quiz</a>
+ 
+  </aside>
+  <article class="content">
+    <strong style="color: #538cc6">NAVIGATION BAR</strong> <br>
+
+Having easy-to-use navigation is important for any web site.<br>
+
+With CSS you can transform boring HTML menus into good-looking navigation bars.<br>
+<img src="image//nav.png"><br>
+
+Navigation Bar = List of Links<br>
+A navigation bar needs standard HTML as a base.<br>
+
+In our examples we will build the navigation bar from a standard HTML list.<br>
+
+A navigation bar is basically a list of links, so using the &ltul> and &lyli> elements makes perfect sense:
+
+<h3>Example</h3>
+&ltul><br>
+  &ltli>&lta href="default.asp">Home&lt/a>&lt/li><br>
+  &ltli>&lta href="news.asp">News&lt/a>&lt/li><br>
+  &ltli>&lta href="contact.asp">Contact&lt/a>&lt/li><br>
+  &ltli>&lta href="about.asp">About&lt/a>&lt/li><br>
+&lt/ul><br>
+
+Now let's remove the bullets and the margins and padding from the list:
+
+<h3>Example</h3>
+ul {<br>
+  list-style-type: none;<br>
+  margin: 0;<br>
+  padding: 0;<br>
+}
+<h3>Example explained:</h3>
+
+list-style-type: none; - Removes the bullets. A navigation bar does not need list markers
+Set margin: 0; and padding: 0; to remove browser default settings
+The code in the example above is the standard code used in both vertical, and horizontal navigation bars, which you will learn more about in the next chapters.
+    
+       <br>
+     <button type="button"><a href="cssquiz.html" style="color: white">Next-></button></a>   
+  </article>
+  <footer class="footer">
+  <center> <a href="https://studio.youtube.com/channel/UCzctoNqKhrR4P5jxWO9JZQw/playlists" class="fa fa-youtube"></a>
+<a href="https://www.instagram.com/smart__tech_/" class="fa fa-instagram"></a>
+<a href="https://www.linkedin.com/in/mansi-soni-6b1902203/" class="fa fa-linkedin"></a></center>
+  </footer>
+</div>
+</body>
+</html>
